@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="TestSuite">     //Name of the test suite
+     <test name="login">     //Name of the test case
+          <parameter name="Username" value="demo@techfios.com" />    //Values to be passed
+          <parameter name="Password" value="abc123" />
+          
+          <classes>
+                  <class name="test.LoginTest" />     // Class name to inject the values into
+          </classes>
+     </test>
+     <test name ="Customer">
+     <parameter name="name" value = "sunita"/>
+     <parameter name="company" value = "ers"/>
+     <parameter name="email" value = "erg@yahoo.com"/>
+     <parameter name="phone" value = "4561233"/>
+     <parameter name="address" value = "689,brilliant street"/>
+     <classes>
+     <class name= "test.CustomerTest"/>
+     </classes> 
+     </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Customer(failed)">
+    <parameter name="address" value="689,brilliant street"/>
+    <parameter name="phone" value="4561233"/>
+    <parameter name="name" value="sunita"/>
+    <parameter name="company" value="ers"/>
+    <parameter name="email" value="erg@yahoo.com"/>
+    <classes>
+      <class name="test.CustomerTest">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- test.CustomerTest -->
+    </classes>
+  </test> <!-- Customer(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
